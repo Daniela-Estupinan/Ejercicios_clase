@@ -37,5 +37,8 @@ void main()
         area=(base*alt)/2;
         printf("El area del triangulo es:%.2f",area);
       break;
+      default:
+        printf("Opcion invalida");
+      break;
    }
 }
